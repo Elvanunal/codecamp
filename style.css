@@ -1,24 +1,78 @@
+html {
+  font-family: sans-serif;
+}
+
 body {
-background: linear-gradient(#6488C1 , #E3C5EF );
-}
-h1 {
-  color:#FA5858
+background: linear-gradient(#EDF4F5 , white );
+weight: 100%;
 }
 
 
 h1 {
-  color:#C32D2D;
+  color:white;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
 }
 
-a
-{
+a {
    text-decoration: none;
-   color: red;
-   font-style: italic;
+   color: black;
+   font-style: none;
 }
 
-a:hover
-{
-   text-decoration: underline;
-   color: green;
+
+nav.menu-nav ul li.btn{
+  width: 150px;
+  weight: 100%
+  margin: 0;
+    display: block;
+  text-align: left;
+    background-blend-mode: darken;
+    padding: 10px
+}
+
+
+
+
+
+
+.menu {
+  width: 20%;
+  font-weight: bolder;
+      color:white;
+      float: left;
+      width: 150px;
+      weight:250px;
+      background: linear-gradient(#EDF4F5 , white );
+}
+
+footer {
+    background-color: linear-gradient(white , #21748A ) ;
+    padding: 10px;
+  font-family: monospace;
+}
+
+
+.div-couleur {
+    background: #DFF2F5 ;
+    border-radius:2px;
+    -moz-transition: all .5s;
+}
+.div-couleur:hover {
+    background: #72B7C1 ;
+    border-radius: 50px;
+}
+
+.home {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
+
+.parent {
+  display:flex;
 }
